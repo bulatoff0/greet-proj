@@ -37,7 +37,7 @@ body {
   margin-left: 10px;
   margin-bottom: 20px;
   color: rgba(0, 0, 0, 0.8);
-  /* width: 96ch; */
+  width: 96ch;
   font-size: 25px;
   font-family: monospace;
   white-space: nowrap;
@@ -95,7 +95,7 @@ body {
   color: #ffffff;
 }
 
-/* @keyframes flashing-border {
+@keyframes flashing-border {
   0% {
     border-color: #e87a14;
   }
@@ -118,7 +118,7 @@ body {
     margin-left: 700px;
     color: white;
   }
-} */
+}
 
 .wrapper__video {
   display: flex;
@@ -140,7 +140,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto 0;
-    margin-left: 100px;
+    margin-left: 80px;
   }
   .wrapper__video {
     margin-top: 100px;
