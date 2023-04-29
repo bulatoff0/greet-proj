@@ -15,9 +15,12 @@
       rel="stylesheet"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mada:wght@600;700&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mada:wght@600;700&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,15 +40,20 @@
   <body>
     <div class="main-wrapper">
       <header class="header">
-        <div class="logo">
-          <div class="logo-name">Привет, меня зовут Булат</div>
+        <div class="header-container">
+          <div class="logo">
+            <div class="logo-name">Привет, меня зовут Булат</div>
+          </div>
+          <a class="link" href="#sec1">
+            <img class="arrow" src="arrow.svg" alt="" />
+          </a>
         </div>
       </header>
-      <div class="section1">
-        
+      <div class="section1" id="sec1">
         <h1 class="wrapper1__text-animation">
-          Валерия , добро  пожаловать  на  сайт,<br> который  я  создал,  для того<br> чтобы 
-          познакомиться  с тобой.
+          Валерия , добро пожаловать на сайт,<br />
+          который я создал, для того<br />
+          чтобы познакомиться с тобой.
         </h1>
         <div class="wrapper1__rules">
           <h2 class="wrapper1__rules-rule">Правила:</h2>
@@ -58,17 +66,19 @@
             чтобы посмотреть
           </p>
         </div>
-        
-        <div class="wrapper__video">
-          <video
-            poster="vlad2.jpg"
-            preload="auto"
-            controls
-            class="video__item"
-            src="vlad.mp4"
-          ></video>
-        </div>
-      
+        <a class="link" href="#sec-video">
+          <img class="arrow" src="arrow.svg" alt="" />
+        </a>
+      </div>
+      <div id="sec-video" class="wrapper__video">
+        <video
+          poster="vlad2.jpg"
+          preload="auto"
+          controls
+          class="video__item"
+          src="vlad.mp4"
+        ></video>
+      </div>
     </div>
   </body>
 </html>
