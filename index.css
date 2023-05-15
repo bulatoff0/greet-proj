@@ -73,7 +73,7 @@ body {
   font-size: 25px;
   font-family: "Roboto";
   font-style: normal;
-  overflow: hidden;
+  text-align: center;
 }
 
 .wrapper1__rules {
@@ -128,4 +128,12 @@ body {
     height: 300px;
     width: 400px;
   }
+}
+
+.btn {
+  margin-top: 25px;
+  width: 160px;
+  height: 60px;
+  border-radius: 20px;
+  border: 1px solid;
 }
