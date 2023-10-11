@@ -59,6 +59,10 @@ body {
   color: #1d1b19;
 }
 
+.nn {
+  margin: 0;
+}
+
 .logo-name {
   font-family: "Roboto";
   font-style: normal;
