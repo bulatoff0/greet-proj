@@ -50,6 +50,15 @@ body {
   }
 }
 
+.storyTail-header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 72px;
+  color: #1d1b19;
+}
+
 .logo-name {
   font-family: "Roboto";
   font-style: normal;
@@ -78,6 +87,9 @@ body {
 
 .wrapper1__rules {
   margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .wrapper1__rules-rule {
